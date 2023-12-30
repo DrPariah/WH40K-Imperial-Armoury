@@ -11,7 +11,14 @@
     "symbol": ";",
     "color": "red",
     "location": "accessories",
-    "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "launcher" ],
+    "mod_target_category": [
+        [ "SUBMACHINE_GUNS" ],
+        [ "RIFLES" ],
+        [ "MACHINE_GUNS" ],
+        [ "SHOTGUNS" ],
+        [ "GRENADE_LAUNCHERS" ],
+        [ "PISTOLS" ]
+      ],
     "install_time": "20 m",
     "dispersion_modifier": -25,
     "loudness_modifier": -2,
